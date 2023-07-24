@@ -1,0 +1,1393 @@
+﻿Log file open, 07/24/23 19:43:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=0)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UnrealTraceServer: Unable to launch the trace store with '"../../../Engine//Binaries/Win64/UnrealTraceServer.exe" fork' (00000002)
+LogCore: Initializing trace...
+LogCore: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.1-CL-23901901"
+LogCsvProfiler: Display: Metadata set : engineversion="5.1.1-23901901+++UE5+Release-5.1"
+LogCsvProfiler: Display: Metadata set : commandline="" L2Help""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.3208] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="67cdc8a64f731c875d3ffba93647c14f"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogIoDispatcher: Display: Reading toc: ../../../L2Help/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../L2Help/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../L2Help/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../L2Help/Content/Paks/L2Help-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../L2Help/Content/Paks/L2Help-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../L2Help/Content/Paks/L2Help-Windows.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../L2Help/Content/Paks/L2Help-Windows.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../L2Help/Content/Paks/L2Help-Windows.utoc"
+LogPakFile: Display: Mounted Pak file '../../../L2Help/Content/Paks/L2Help-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.131722
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../L2Help/AssetRegistry.bin'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-9D606F3D4DB3E614E628F4A3A2E9A0F0
+         Session CrashGUID >====================================================
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogInit: Build: ++UE5+Release-5.1-CL-23901901
+LogInit: Engine Version: 5.1.1-23901901+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-23058290+++UE5+Release-5.1
+LogInit: Net CL: 23058290
+LogInit: OS: Windows 10 (22H2) [10.0.19045.3208] (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jan 30 2023 05:26:11
+LogInit: Compiled with Visual C++: 19.29.30147.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line: 
+LogInit: Base Directory: E:/L2Help/Windows/L2Help/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 80
+LogDevObjectVersion:   FortniteNC (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 4
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 88
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 41
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: true, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.setres:1280x720]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.ShadingPath:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.SupportGPUScene:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.FloatPrecisionMode:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Shaders.CompressionFormat:2]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VirtualTextures:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VT.EnableAutoImport:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VT.AnisotropicFiltering:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[bEnableVirtualTextureOpacityMask:0]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.ReflectionMethod:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.EnableForProject:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.RayTracing.Shadows:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.RayTracing.Skylight:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.PathTracing:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DistanceFields.DefaultVoxelDensity:0.200000]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.SeparateTranslucency:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[vr.VRS.HMDFixedFoveationLevel:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[vr.VRS.HMDFixedFoveationDynamic:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.CustomDepth:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.MSAACount:4]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2023.07.24-14.43.23:888][  0]LogConfig: Set CVar [[r.Shadow.CSMCaching:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.DBuffer:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.VelocityOutputPass:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Velocity.EnableVertexDeformation:2]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[vr.InstancedStereo:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.MobileHDR:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[vr.MobileMultiView:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportCloudShadowOnForwardLitTranslucent:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Shadow.TranslucentPerObject.ProjectEnabled:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Water.SingleLayerWater.SupportCloudShadow:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Strata:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Strata.BytesPerPixel:80]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Strata.OpaqueMaterialRoughRefraction:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Strata.Debug.AdvancedVisualizationShaders:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Material.RoughDiffuse:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Material.EnergyConservation:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.OIT.SortedPixels:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SkinCache.SkipCompilingGPUSkinVF:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableLocalLights:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableClusteredReflections:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[r.Mobile.SupportsGen4TAA:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.07.24-14.43.23:889][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.VerifyGCObjectNames:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Set CVar [[gc.PendingKillEnabled:1]]
+[2023.07.24-14.43.23:889][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.07.24-14.43.23:889][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.07.24-14.43.23:902][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.History.GrandReprojection:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.07.24-14.43.23:902][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.DetailMode:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.07.24-14.43.23:903][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.07.24-14.43.23:903][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.07.24-14.43.23:903][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2023.07.24-14.43.23:918][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI: D3D11 adapters:
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1080
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     DeviceId    : 1be0
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     SubSysId    : 11bb1462
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     DedicatedVideoMemory : 8464105472 bytes
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     SharedSystemMemory : 7502366720 bytes
+[2023.07.24-14.43.23:921][  0]LogD3D11RHI:     AdapterLuid : 0 325263615
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_1)
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:       8072/0/7154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     VendorId    : 1414
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     DeviceId    : 008c
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     SubSysId    : 0000
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     Revision    : 0000
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     SharedSystemMemory : 7502366720 bytes
+[2023.07.24-14.43.24:118][  0]LogD3D11RHI:     AdapterLuid : 0 91459
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:       0/0/7154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1080
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     DeviceId    : 1be0
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     SubSysId    : 11bb1462
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     DedicatedVideoMemory : 8464105472 bytes
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     SharedSystemMemory : 7502366720 bytes
+[2023.07.24-14.43.24:120][  0]LogD3D11RHI:     AdapterLuid : 0 325263615
+[2023.07.24-14.43.24:120][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.24-14.43.24:120][  0]LogHAL: Display: Platform has ~ 14 GB [15004733440 / 17179869184 / 14], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.07.24-14.43.24:120][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.07.24-14.43.24:120][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.07.24-14.43.24:120][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2023.07.24-14.43.24:120][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.07.24-14.43.24:120][  0]LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+[2023.07.24-14.43.24:120][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.07.24-14.43.24:120][  0]LogInit: Computer: DESKTOP-2LIS6CN
+[2023.07.24-14.43.24:120][  0]LogInit: User: infer
+[2023.07.24-14.43.24:120][  0]LogInit: CPU Page size=4096, Cores=4
+[2023.07.24-14.43.24:120][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.07.24-14.43.24:120][  0]LogMemory: Memory total: Physical=14.0GB (14GB approx)
+[2023.07.24-14.43.24:120][  0]LogMemory: Platform Memory Stats for Windows
+[2023.07.24-14.43.24:120][  0]LogMemory: Process Physical Memory: 117.94 MB used, 127.19 MB peak
+[2023.07.24-14.43.24:120][  0]LogMemory: Process Virtual Memory: 113.38 MB used, 117.14 MB peak
+[2023.07.24-14.43.24:120][  0]LogMemory: Physical Memory: 8066.36 MB used,  6243.27 MB free, 14309.63 MB total
+[2023.07.24-14.43.24:120][  0]LogMemory: Virtual Memory: 12769.90 MB used,  22815.77 MB free, 35585.66 MB total
+[2023.07.24-14.43.24:120][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.07.24-14.43.24:128][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.07.24-14.43.24:129][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.07.24-14.43.24:129][  0]LogInit: Using OS detected language (ru-RU).
+[2023.07.24-14.43.24:129][  0]LogInit: Using OS detected locale (ru-RU).
+[2023.07.24-14.43.24:129][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2023.07.24-14.43.24:129][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2023.07.24-14.43.24:163][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.07.24-14.43.24:163][  0]LogWindowsTextInputMethodSystem:   - Русский (Россия) - (Keyboard).
+[2023.07.24-14.43.24:163][  0]LogWindowsTextInputMethodSystem:   - Английский (США) - (Keyboard).
+[2023.07.24-14.43.24:163][  0]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2023.07.24-14.43.24:183][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2023.07.24-14.43.24:183][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.07.24-14.43.24:197][  0]LogWindows: Attached monitors:
+[2023.07.24-14.43.24:197][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1050), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.07.24-14.43.24:197][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1050), device: '\\.\DISPLAY2'
+[2023.07.24-14.43.24:197][  0]LogWindows: Found 2 attached monitors.
+[2023.07.24-14.43.24:197][  0]LogWindows: Gathering driver information using Windows Setup API
+[2023.07.24-14.43.24:197][  0]LogRHI: RHI Adapter Info:
+[2023.07.24-14.43.24:197][  0]LogRHI:             Name: NVIDIA GeForce GTX 1080
+[2023.07.24-14.43.24:197][  0]LogRHI:   Driver Version: 536.67 (internal:31.0.15.3667, unified:536.67)
+[2023.07.24-14.43.24:197][  0]LogRHI:      Driver Date: 7-12-2023
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
+[2023.07.24-14.43.24:197][  0]LogRHI: Texture pool is 5650 MB (70% of 8072 MB)
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1080
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     DeviceId    : 1be0
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     SubSysId    : 11bb1462
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     DedicatedVideoMemory : 8464105472 bytes
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     SharedSystemMemory : 7502366720 bytes
+[2023.07.24-14.43.24:197][  0]LogD3D11RHI:     AdapterLuid : 0 325263615
+[2023.07.24-14.43.24:330][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.07.24-14.43.24:330][  0]LogD3D11RHI: Async texture creation enabled
+[2023.07.24-14.43.24:330][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2023.07.24-14.43.24:330][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.07.24-14.43.24:353][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.07.24-14.43.24:358][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2023.07.24-14.43.24:359][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 3178 unique shaders.
+[2023.07.24-14.43.24:359][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2023.07.24-14.43.24:359][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
+[2023.07.24-14.43.24:359][  0]LogShaderLibrary: Display: Logical shader library 'Global_SC' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'BlueprintHeaderView' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'GeometryMode' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'DatasmithContent' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'ObjectMixer' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'Dataflow' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'GLTFExporter' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogShaderLibrary: Display: Logical shader library 'LightMixer' component count 0, new components: 0
+[2023.07.24-14.43.24:360][  0]LogTemp: Display: Clearing the OS Cache
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM5 (0)
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: ---
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: ---
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2023.07.24-14.43.24:377][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2023.07.24-14.43.24:386][  0]LogSlate: Using FreeType 2.10.0
+[2023.07.24-14.43.24:386][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.24-14.43.24:429][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library L2Help. Total 797 unique shaders.
+[2023.07.24-14.43.24:429][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library L2Help
+[2023.07.24-14.43.24:429][  0]LogShaderLibrary: Display: Logical shader library 'L2Help' has been created, components 1
+[2023.07.24-14.43.24:430][  0]LogShaderLibrary: Display: Logical shader library 'L2Help' component count 1, new components: 0
+[2023.07.24-14.43.24:430][  0]LogInit: Using OS detected language (ru-RU).
+[2023.07.24-14.43.24:430][  0]LogInit: Using OS detected locale (ru-RU).
+[2023.07.24-14.43.24:430][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2023.07.24-14.43.24:430][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2023.07.24-14.43.24:431][  0]LogAssetRegistry: FAssetRegistry took 0.0007 seconds to start up
+[2023.07.24-14.43.24:522][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2023.07.24-14.43.24:527][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: Available device profiles:
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578F80][000001739AEAEAB0 52] GlobalDefaults, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F579280][000001739F309250 52] Windows, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F579400][000001739F306DC0 52] WindowsEditor, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573400][000001739F304930 52] WindowsServer, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573700][000001739F3024A0 52] WindowsClient, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F574480][000001739F300010 52] IOS, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F574000][000001739F71DB70 52] iPadAir2, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F574180][000001739F71B6E0 52] IPadPro, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F574300][000001739F719250 52] iPadAir3, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573880][000001739F716DC0 52] iPadAir4, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573A00][000001739F714930 52] iPadAir5, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573B80][000001739F7124A0 52] iPadMini4, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573D00][000001739F710010 52] iPadMini5, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F573E80][000001739F72DB70 52] iPadMini6, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578E00][000001739F72B6E0 52] iPhone6S, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578B00][000001739F729250 52] iPhone7, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578980][000001739F726DC0 52] iPodTouch7, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578800][000001739F724930 52] iPhone6SPlus, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578680][000001739F7224A0 52] iPhone7Plus, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578500][000001739F720010 52] iPhoneSE, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578380][000001739F73DB70 52] iPhone8, 
+[2023.07.24-14.43.24:527][  0]LogDeviceProfileManager: 	[000001739F578200][000001739F73B6E0 52] iPhone8Plus, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F578080][000001739F739250 52] iPhoneX, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F573280][000001739F736DC0 52] iPhoneXS, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F573580][000001739F734930 52] iPhoneXSMax, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577F00][000001739F7324A0 52] iPhoneXR, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577D80][000001739F730010 52] iPhone11, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577C00][000001739F74DB70 52] iPhone11Pro, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577A80][000001739F74B6E0 52] iPhone11ProMax, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577900][000001739F749250 52] iPhoneSE2, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577780][000001739F746DC0 52] iPhone12Mini, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577600][000001739F744930 52] iPhone12, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577480][000001739F7424A0 52] iPhone12Pro, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577300][000001739F740010 52] iPhone12ProMax, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577180][000001739F75DB70 52] iPhone13Mini, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F577000][000001739F75B6E0 52] iPhone13, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576E80][000001739F759250 52] iPhone13Pro, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576D00][000001739F756DC0 52] iPhone13ProMax, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576B80][000001739F754930 52] iPhoneSE3, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576A00][000001739F7524A0 52] iPhone14, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576880][000001739F750010 52] iPhone14Plus, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576700][000001739F76DB70 52] iPhone14Pro, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576580][000001739F76B6E0 52] iPhone14ProMax, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F578C80][000001739F769250 52] iPadPro105, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F576400][000001739F766DC0 52] iPadPro129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C580][000001739F764930 52] iPadPro97, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C400][000001739F7624A0 52] iPadPro2_129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C280][000001739F760010 52] iPad5, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C100][000001739F77DB70 52] iPad6, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57BF80][000001739F77B6E0 52] iPad7, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57BE00][000001739F779250 52] iPad8, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57BC80][000001739F776DC0 52] iPad9, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57BB00][000001739F774930 52] iPad10, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B980][000001739F7724A0 52] iPadPro11, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B800][000001739F770010 52] iPadPro2_11, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B680][000001739F78DB70 52] iPadPro3_11, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B500][000001739F78B6E0 52] iPadPro4_11, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B380][000001739F789250 52] iPadPro3_129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B200][000001739F786DC0 52] iPadPro4_129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57B080][000001739F784930 52] iPadPro5_129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57AF00][000001739F7824A0 52] iPadPro6_129, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57AD80][000001739F780010 52] AppleTV, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57AC00][000001739F79DB70 52] AppleTV4K, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57AA80][000001739F79B6E0 52] AppleTV2_4K, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A900][000001739F799250 52] TVOS, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A780][000001739F796DC0 52] Mac, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A600][000001739F794930 52] MacEditor, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A480][000001739F7924A0 52] MacClient, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A300][000001739F790010 52] MacServer, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A180][000001739F7ADB70 52] Linux, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57A000][000001739F7AB6E0 52] LinuxEditor, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579E80][000001739F7A9250 52] LinuxArm64Editor, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579D00][000001739F7A6DC0 52] LinuxArm64, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579B80][000001739F7A4930 52] LinuxClient, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579A00][000001739F7A24A0 52] LinuxArm64Client, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579880][000001739F7A0010 52] LinuxServer, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579700][000001739F7BDB70 52] LinuxArm64Server, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F579580][000001739F7BB6E0 52] Android, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F700][000001739F7B9250 52] Android_Preview_OpenGL, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F580][000001739F7B6DC0 52] Android_Preview_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F400][000001739F7B4930 52] Android_Low, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F280][000001739F7B24A0 52] Android_Mid, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F100][000001739F7B0010 52] Android_High, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57EF80][000001739F7CDB70 52] Android_Default, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57EE00][000001739F7CB6E0 52] Android_Adreno4xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57EC80][000001739F7C9250 52] Android_Adreno5xx_Low, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57EB00][000001739F7C6DC0 52] Android_Adreno5xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E980][000001739F7C4930 52] Android_Adreno6xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E800][000001739F7C24A0 52] Android_Adreno6xx_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E680][000001739F7C0010 52] Android_Adreno7xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E500][000001739F7DDB70 52] Android_Adreno7xx_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E380][000001739F7DB6E0 52] Android_Mali_T6xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E200][000001739F7D9250 52] Android_Mali_T7xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57E080][000001739F7D6DC0 52] Android_Mali_T8xx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57DF00][000001739F7D4930 52] Android_Mali_G71, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57DD80][000001739F7D24A0 52] Android_Mali_G72, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57DC00][000001739F7D0010 52] Android_Mali_G72_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57DA80][000001739F7EDB70 52] Android_Mali_G76, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D900][000001739F7EB6E0 52] Android_Mali_G76_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D780][000001739F7E9250 52] Android_Mali_G77, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D600][000001739F7E6DC0 52] Android_Mali_G77_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D480][000001739F7E4930 52] Android_Mali_G78, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D300][000001739F7E24A0 52] Android_Mali_G78_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D180][000001739F7E0010 52] Android_Mali_G710, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57D000][000001739F7FDB70 52] Android_Mali_G710_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57CE80][000001739F7FB6E0 52] Android_Xclipse_920, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57CD00][000001739F7F9250 52] Android_Xclipse_920_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57CB80][000001739F7F6DC0 52] Android_Vulkan_SM5, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57CA00][000001739F7F4930 52] Android_PowerVR_G6xxx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C880][000001739F7F24A0 52] Android_PowerVR_GT7xxx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57C700][000001739F7F0010 52] Android_PowerVR_GE8xxx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57FE80][000001739F80DB70 52] Android_PowerVR_GM9xxx, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57FD00][000001739F80B6E0 52] Android_PowerVR_GM9xxx_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57FB80][000001739F809250 52] Android_TegraK1, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57FA00][000001739F806DC0 52] Android_Unknown_Vulkan, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F57F880][000001739F804930 52] Oculus_Quest, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F813100][000001739F8024A0 52] Oculus_Quest2, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: 	[000001739F812F80][000001739F800010 52] HoloLens, 
+[2023.07.24-14.43.24:528][  0]LogDeviceProfileManager: Active device profile: [000001739F579280][000001739F309250 52] Windows
+[2023.07.24-14.43.24:528][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2023.07.24-14.43.24:550][  0]LogNetVersion: L2Help 1.0.0, NetCL: 23058290, EngineNetVer: 30, GameNetVer: 0 (Checksum: 3211822847)
+[2023.07.24-14.43.24:576][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.07.24-14.43.24:576][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.07.24-14.43.24:582][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Engine/EngineDebugMaterials/VolumeToRender (0xCE7DE857BE59827F) - The package to load does not exist on disk or in the loader
+[2023.07.24-14.43.24:582][  0]LogUObjectGlobals: Warning: Failed to find object 'VolumeTexture None./Engine/EngineDebugMaterials/VolumeToRender'
+[2023.07.24-14.43.24:582][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP (0xD77644E125DFF23B) - The package to load does not exist on disk or in the loader
+[2023.07.24-14.43.24:582][  0]LogUObjectGlobals: Warning: Failed to find object 'MaterialInterface None./Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP'
+[2023.07.24-14.43.24:587][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.000088 seconds
+[2023.07.24-14.43.24:616][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.07.24-14.43.24:619][  0]LogMoviePlayer: Initializing movie player
+[2023.07.24-14.43.24:626][  0]LogUObjectArray: 14865 objects as part of root set at end of initial load.
+[2023.07.24-14.43.24:626][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2023.07.24-14.43.24:626][  0]LogUObjectAllocator: 3338456 out of 0 bytes used by permanent object pool.
+[2023.07.24-14.43.24:626][  0]LogUObjectArray: CloseDisregardForGC: 14865/14865 objects in disregard for GC pool
+[2023.07.24-14.43.24:643][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 14527 public script object entries (379.99 KB)
+[2023.07.24-14.43.24:645][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2023.07.24-14.43.24:648][  0]LogEngine: Initializing Engine...
+[2023.07.24-14.43.24:651][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.07.24-14.43.24:658][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.07.24-14.43.24:658][  0]LogNetVersion: Set ProjectVersion to 0.4.3.5. Version Checksum will be recalculated on next use.
+[2023.07.24-14.43.24:658][  0]LogInit: Texture streaming: Enabled
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: No default MediaSoundClassObject specified (or failed to load).
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.07.24-14.43.24:658][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.24-14.43.24:659][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.24-14.43.24:659][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.24-14.43.24:659][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.24-14.43.24:659][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.24-14.43.24:659][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.24-14.43.24:708][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.07.24-14.43.24:715][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.24-14.43.24:809][  0]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2023.07.24-14.43.24:809][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.24-14.43.24:810][  0]LogAudioMixer: Display: Submix unset or invalid in 'AudioSettings': Using engine asset 'MasterSubmixDefault'
+[2023.07.24-14.43.24:810][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.24-14.43.24:810][  0]LogAudioMixer: Display: Submix unset or invalid in 'AudioSettings': Using engine asset 'MasterReverbSubmixDefault'
+[2023.07.24-14.43.24:810][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.24-14.43.24:811][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.07.24-14.43.24:811][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2023.07.24-14.43.24:819][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.24-14.43.24:819][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.07.24-14.43.24:819][  0]LogInit: FAudioDevice initialized.
+[2023.07.24-14.43.24:819][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.07.24-14.43.24:823][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.24-14.43.24:825][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.07.24-14.43.24:825][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.24-14.43.24:826][  0]LogInit: Display: Game Engine Initialized.
+[2023.07.24-14.43.24:826][  0]LogInit: Display: Starting Game.
+[2023.07.24-14.43.24:826][  0]LogNet: Browse: /Game/L2Halp/Map/L2HalpMap?Name=Player
+[2023.07.24-14.43.24:826][  0]LogLoad: LoadMap: /Game/L2Halp/Map/L2HalpMap?Name=Player
+[2023.07.24-14.43.24:826][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2023.07.24-14.43.24:827][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.24-14.43.24:827][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.24-14.43.24:830][  0]LogStreaming: Display: 0.001 ms for processing 29 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (64->64) packages and 0 (68->68) public exports.
+[2023.07.24-14.43.24:830][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.24-14.43.24:835][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.07.24-14.43.24:865][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'L2HalpMap'.
+[2023.07.24-14.43.24:865][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.24-14.43.24:866][  0]LogAIModule: Creating AISystem for world L2HalpMap
+[2023.07.24-14.43.24:867][  0]LogLoad: Game class is 'MyGameMod_C'
+[2023.07.24-14.43.24:867][  0]LogWorld: Bringing World /Game/L2Halp/Map/L2HalpMap.L2HalpMap up for play (max tick rate 0) at 2023.07.24-19.43.24
+[2023.07.24-14.43.24:868][  0]LogWorld: Bringing up level for play took: 0.000479
+[2023.07.24-14.43.24:868][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.07.24-14.43.24:869][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.07.24-14.43.24:869][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.07.24-14.43.24:869][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.07.24-14.43.24:879][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2023.07.24-14.43.24:886][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:887][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:888][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:888][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:889][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:889][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:890][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:891][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:891][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:892][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:892][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:893][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:894][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:894][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:895][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:895][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:896][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:896][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:897][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:898][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:898][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:899][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:899][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:900][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:900][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:901][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:901][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:902][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:903][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:903][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:904][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:905][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:905][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:906][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:906][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:907][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:907][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:908][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:909][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:909][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:910][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:910][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:911][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:911][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:912][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:912][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:913][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:914][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:914][  0]LogStreaming: Warning: Failed to read file '../../../L2Help/Saved/SaveGames/2.sav' error.
+[2023.07.24-14.43.24:916][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:916][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:916][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:916][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:919][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:920][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:920][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:920][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:920][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:921][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:921][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:922][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:923][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:923][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:923][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:923][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:924][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:924][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:924][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:924][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:925][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:926][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:926][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:926][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:926][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:927][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:928][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:928][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:928][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:928][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:929][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:930][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:930][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:930][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:930][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:931][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:932][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:933][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:934][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:934][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:934][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:934][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:935][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:935][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:935][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:935][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:936][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:936][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:936][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:936][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:937][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:937][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:937][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:937][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:938][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:939][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:940][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:941][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:941][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:941][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:941][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:942][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:943][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:943][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:943][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:943][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:944][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:944][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:944][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:944][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:945][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:945][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:945][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:945][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:946][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:947][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:948][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:949][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:949][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:949][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:949][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:950][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:951][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:951][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:951][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:951][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:952][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:952][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:952][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:952][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:953][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:953][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:953][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:953][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:954][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:955][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:955][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:955][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:955][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:956][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:957][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:958][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:958][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:958][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:958][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:958][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:959][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:960][  0]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'ItemPrice' of length 0 in '/Game/L2Halp/Game/MySaveGame.MySaveGame_C'!
+[2023.07.24-14.43.24:960][  0]LogScript: Warning: Last function called:
+	/Game/L2Halp/UI/Icon/W_AllIcon.W_AllIcon_C.ExecuteUbergraph_W_AllIcon
+
+[2023.07.24-14.43.24:962][  0]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2023.07.24-14.43.24:964][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.07.24-14.43.24:964][  0]LogLoad: Took 0.137911 seconds to LoadMap(/Game/L2Halp/Map/L2HalpMap)
+[2023.07.24-14.43.24:966][  0]LogViewport: Scene viewport resized to 1920x1080, mode WindowedFullscreen.
+[2023.07.24-14.43.25:029][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2023.07.24-14.43.25:029][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=129268, PathHashSize=16, EntriesSize=19104, TotalSize=148388
+[2023.07.24-14.43.25:029][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2023.07.24-14.43.25:029][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2023.07.24-14.43.25:029][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.07.24-14.43.25:029][  0]LogLoad: (Engine Initialization) Total time: 1.36 seconds
+[2023.07.24-14.43.25:044][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.07.24-14.43.25:244][ 23]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.24-14.43.25:244][ 23]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.07.24-14.43.25:266][ 23]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.07.24-14.43.35:897][ 62]LogSlate: Request Window 'L2Help (64-bit Development PCD3D_SM5) ' being destroyed
+[2023.07.24-14.43.35:897][ 62]LogSlate: Window 'L2Help (64-bit Development PCD3D_SM5) ' being destroyed
+[2023.07.24-14.43.35:898][ 62]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2023.07.24-14.43.35:920][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.24-14.43.35:920][ 62]LogEngine: All Windows Closed
+[2023.07.24-14.43.35:920][ 62]LogWindows: FPlatformMisc::RequestExit(0)
+[2023.07.24-14.43.35:920][ 62]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
+[2023.07.24-14.43.35:920][ 62]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.07.24-14.43.35:920][ 63]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.07.24-14.43.35:920][ 63]LogInit: Display: PreExit Game.
+[2023.07.24-14.43.35:921][ 63]LogWorld: BeginTearingDown for /Game/L2Halp/Map/L2HalpMap
+[2023.07.24-14.43.35:921][ 63]LogWorld: UWorld::CleanupWorld for L2HalpMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.24-14.43.35:921][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.24-14.43.36:657][ 63]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.07.24-14.43.36:657][ 63]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.07.24-14.43.36:657][ 63]LogAudio: Display: Audio Device unregistered from world 'L2HalpMap'.
+[2023.07.24-14.43.36:702][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.07.24-14.43.36:702][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.07.24-14.43.36:716][ 63]LogAudio: Display: Audio Device Manager Shutdown
+[2023.07.24-14.43.36:718][ 63]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.07.24-14.43.36:718][ 63]LogExit: Preparing to exit.
+[2023.07.24-14.43.36:718][ 63]LogMoviePlayer: Shutting down movie player
+[2023.07.24-14.43.36:722][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.24-14.43.36:736][ 63]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.07.24-14.43.36:737][ 63]LogExit: Game engine shut down
+[2023.07.24-14.43.36:758][ 63]LogExit: Object subsystem successfully closed.
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AutomationController (168)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AutomationWorker (166)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AIModule (164)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module GameplayDebugger (163)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module NavigationSystem (161)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module SessionServices (158)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module LiveCoding (156)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (152)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module MovieScene (150)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (148)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (146)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (144)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AudioMixer (143)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module AudioMixerCore (142)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module SignalProcessing (141)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (136)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module TypedElementFramework (134)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (132)
+[2023.07.24-14.43.36:762][ 63]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module InputDebugging (126)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module AudioCapture (124)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (123)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (120)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (118)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module DataflowNodes (116)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (114)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module AutomationUtils (112)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (108)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (106)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module ActorSequence (104)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module EnhancedInput (102)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module FacialAnimation (100)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (98)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module PacketHandler (96)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (94)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module MediaAssets (92)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module Overlay (90)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module FunctionalTesting (88)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module MessageLog (86)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module Slate (80)
+[2023.07.24-14.43.36:924][ 63]LogModuleManager: Shutting down and abandoning module SlateCore (78)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module MRMesh (76)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Messaging (74)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (72)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Networking (70)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Core (66)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Media (64)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module ImageWrapper (60)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (54)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (53)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Chaos (50)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module GeometryCore (49)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (46)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (45)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module AVEncoder (44)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module D3D11RHI (40)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (38)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (36)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module VariantManagerContent (34)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module GLTFExporter (32)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module DatasmithContent (30)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.07.24-14.43.36:926][ 63]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.07.24-14.43.36:927][ 63]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.07.24-14.43.36:928][ 63]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.07.24-14.43.36:928][ 63]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.07.24-14.43.36:928][ 63]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.07.24-14.43.36:928][ 63]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.07.24-14.43.36:928][ 63]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.07.24-14.43.36:930][ 63]LogD3D11RHI: Shutdown
+[2023.07.24-14.43.36:930][ 63]LogD3D11RHI: CleanupD3DDevice
+[2023.07.24-14.43.36:938][ 63]LogExit: Exiting.
+[2023.07.24-14.43.36:974][ 63]Log file closed, 07/24/23 19:43:36
